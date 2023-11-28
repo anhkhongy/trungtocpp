@@ -1,0 +1,31 @@
+#include <bits/stdc++.h>
+using namespace std;
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+int ans ;
+void Try(int n, int step){
+	if(n == 1){
+		ans = min(ans, step);
+		return;
+	}
+	if(n % 2 == 0){
+		return (n / 2, step + 1);
+	}
+	if(n % 3 == 0){
+		return (n / 3, step + 1);
+	}
+	if(n >= 1){
+		return (n - 1, step + 1);
+	}
+}
+int main(int argc, char** argv) {
+	int t;
+	cin >> t;
+	while (t--){
+		int n;
+		cin >> n;
+		ans = INT_MAX;
+		Try(n, 0);
+		cout << ans << endl;
+	}
+	return 0;
+}

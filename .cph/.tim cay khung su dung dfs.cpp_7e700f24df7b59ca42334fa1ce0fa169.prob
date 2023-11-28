@@ -1,0 +1,1 @@
+{"name":"Local: tim cay khung su dung dfs","url":"e:\\lap trinh C++\\tim cay khung su dung dfs.cpp","tests":[{"id":1683036707117,"input":"2\n\n4 4 2\n\n1 2\n\n1 3\n\n2 4\n\n3 4\n\n4 2 2\n\n1 2\n\n3 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\lap trinh C++\\tim cay khung su dung dfs.cpp","group":"local","local":true}
